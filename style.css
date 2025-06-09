@@ -1,0 +1,60 @@
+/* 전체 기본 스타일 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 헤더 네비게이션 */
+header {
+  background-color: #007acc;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* 본문 섹션 */
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+h1, h2 {
+  color: #007acc;
+}
+
+/* 연락처 링크 */
+a {
+  color: #007acc;
+}
+
+/* 푸터 */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #eee;
+  font-size: 0.9em;
+}
